@@ -1,0 +1,26 @@
+.bor{
+  background-color: aquamarine;
+  /* border: black 10px solid;
+  border-radius: 10px; */
+  margin-top: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 30px;
+  width: 400px;
+  height: 350px;
+  clip-path: 
+    polygon(
+      0% 10%,     /* top left */
+      10% 0%,     /* top left */
+      90% 0%,    /* top right */
+      100% 10%,   /* top right */
+      100% 90%,  /* bottom right */
+      90% 100%,  /* bottom right */
+      10% 100%,   /* bottom left */
+      0 90%      /* bottom left */
+    );
+}
+
+td{
+  width: 100px;
+}

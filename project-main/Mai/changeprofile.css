@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu+Condensed&display=swap');
+/*
+font-family: 'Alata', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    background: #F6F6F6;
+}
+.pic{
+    text-align: center;
+}
+.title{
+    font-family: 'Alata', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.alldata{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 190px;
+    box-shadow: 4px 7px 5px grey;
+    background: white;
+    border-radius: 10px;
+}
+.simpledata{
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 140px;
+    margin-right: 10px;
+}
+.text_birth{
+    width: 180px;
+    margin-right: 10px;
+}
+input[type='file'] {
+    color: transparent;
+}
+.special{
+    margin-left: 410px;
+}
+a:link {
+    text-decoration:none;
+}
+input[type='submit'] {
+    background: #dddddd;;
+    border: none;
+    font-family: 'Alata', sans-serif;
+    padding: 4px 4px;
+    font-size: 15px;
+}
+input[type='text'] {
+    outline: none;
+}

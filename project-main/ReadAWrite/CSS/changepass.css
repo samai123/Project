@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+/*font-family: 'Prompt', sans-serif;
+*/
+body{
+    font-family: 'kanit' , sans-serif;
+    background-color: #f6f6f6;
+}
+.alldata{
+    max-width: 500px;
+    background: white;
+    margin-left: 530px;
+    margin-top: 200px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px grey;
+}
+.top{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.inputdata{
+   margin-left: 100px;
+   margin-bottom: 15px;
+}
+.inputdata input{
+    margin-left: 30px;
+    outline: none;
+}
+.inputnew{
+   margin-left: 100px;
+   margin-bottom: 15px;
+}
+.inputnew input{
+    margin-left: 25px;
+    outline: none;
+}
+.btn input[type=submit]{
+    margin-left: 325px;
+    padding: 6px 10px;
+    background:  #5aa8a2;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.btn input[type=submit]:hover{
+    background: #198b8b;
+    color: white;
+}
+.backbtn a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}

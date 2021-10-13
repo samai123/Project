@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+.text_link {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_link a{
+    font-style: bolder;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    color: black;   
+}
+
+.text_link a:link{
+    text-decoration: none;
+}
+
+.text_link span{
+    padding-left : 110px;
+    padding-right : 120px;
+}
+
+p {
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0PX;
+}
+
+.image {
+    width:180px;
+    height:180px;
+    padding-top: 50px;
+    padding-bottom : 10px;
+    padding-left : 50px;
+    padding-right : 50px;
+}
+
+.main_content {
+    max-width: 700px;
+    margin: auto;
+}
+
+td {
+    width: 310px;
+}
+table{
+    margin-left: 35px;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+.mybox {
+    background-color: white;
+    max-width:600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    box-shadow: 3px 5px 5px #838383;
+    
+}
+
+.mybox label{
+    font-family: 'kanit' ,  sans-serif;
+    font-size: 35px;
+    font-style: bold;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.mybox input {
+    background-color: #5aa8a2;
+    font-family: 'kanit' , sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+
+    margin: 5px;
+    margin-left: 10px;
+}

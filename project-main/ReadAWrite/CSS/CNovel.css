@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+.box {
+    background-color: white;
+    padding: 25px;
+    max-width: 980px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    box-shadow: 3px 5px 5px #838383;
+}
+
+.label {
+    margin-top: 8px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form {
+    font-family: 'Kanit', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    width:70%;
+}
+
+.two {
+    width: 25%;
+    margin-right: 0;
+    margin-left: auto;
+    float: right;
+}
+
+.three {
+    width: 100%;
+}
+
+form option,select{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+form input[type='text']{
+    width:100%;
+    height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.mybutton {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 2 8 2 8;
+    display: block;
+    margin: auto;
+}
+
+form a{
+    font-size: 14px;
+    float: right;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: rgb(43, 187, 173);
+}
+
+form a:visited{
+    text-decoration: none;
+}
+
+.FChap {
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    max-width: 980px;
+    padding: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 3px 5px 5px #838383;
+}
+
+.FChap h1{
+    margin: 0;
+}
+
+.FChap textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}

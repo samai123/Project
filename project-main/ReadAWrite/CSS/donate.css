@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+/*font-family: 'Prompt', sans-serif;
+*/
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: #F6F6F6;
+}
+.box{
+    max-width: 500px;
+    background:white;
+    align-items: center;
+    margin-left: 520px;
+    box-shadow: 4px 5px 5px grey;
+}
+.top{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+}
+.type{
+    text-align: center;
+    margin-left: 40px;
+}
+.type input{
+    margin-right: 60px;
+}
+.type label{
+    font-size: 20px;
+}
+.detail{
+    max-width: 600px;
+    background:white;
+    margin-right: 515px;
+    margin-left: 520px;
+    margin-top: 180px;
+    box-shadow: 4px 5px 5px grey;
+}
+.inputfield{
+    margin-left: 120px;
+    margin-bottom: 15px;
+ }
+ .inputfield select{
+     margin-left: 48px;
+     outline: none;
+ }
+ .inputfield input{
+     outline: none;
+     margin-left: 25px;
+     width: 150px;
+ }
+ .sbtn{
+     margin-left: 120px;
+     margin-bottom: 20px;
+    
+ }
+ .textf{
+     text-align: center;
+     font-size: 12px;
+     margin-bottom: 20px;
+ }
+.sbtn input[type=submit]{
+    padding: 6px 10px;
+    background:  #5aa8a2;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.sbtn input[type=submit]:hover{
+    background: #198b8b;
+    color: white;
+  }
+p{
+    margin-top: 100px;
+}  
+.donatetop{
+    text-align: center;
+    font-size: 30px;
+  }
+.backbtn a{
+    margin-left: 985px;
+    text-decoration: none;
+    color: black;
+}
+.backbtn a:hover{
+    color: cadetblue;
+}

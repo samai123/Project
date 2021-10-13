@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+.all{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 70px;
+}
+
+.all a{
+    margin-left: 15px;
+    color: rgb(42, 110, 110);
+    text-decoration: none;
+    font-size: 20px;
+}

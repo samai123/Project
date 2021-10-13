@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+/*font-family: 'kanit' , sans-serif;*/
+body{
+    background-color: #F6F6F6;
+    font-family: 'kanit' , sans-serif;
+}
+.all{
+    max-width: 50%;
+    width: 100%;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 4px 5px 5px grey;
+    display: block;
+    margin: auto;
+}
+.all a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.veri a:link{
+    background-color: #5aa8a2;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+}
+.donate a:link{
+    background-color: #5aa8a2;
+    color: white;
+    padding: 10px 61px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+}
+.logout a:link{
+    background-color: #5aa8a2;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+}
+
+.all a:hover{
+    background: #198b8b;
+}
+
+.topa{
+    text-align: center;   
+    font-size: 30px;
+}
+
+.topa p{
+    margin: 0;
+}
+
+.topa label{
+    font-size: 36px;
+}

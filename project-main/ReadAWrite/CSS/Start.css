@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+.myl {
+    background-color: white;
+    float: left;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.myl img {
+    max-width: 480px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+body {
+    margin:0;
+}
+
+.myr {
+    float: right;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #5aa8a2;
+    text-align: center;
+}
+
+.myr img {
+    width: 50%;
+    margin-top: 25%;
+}
+
+.myr p,a{
+    font-family: 'Kanit', sans-serif;
+    font-display: auto;
+    color: white;
+}
+
+@media screen and (min-width: 941px) {
+    .myr p{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .myr p{
+        font-size: 18px;
+    }
+}
+
+.myr a:visited{
+    text-decoration: none;
+}
